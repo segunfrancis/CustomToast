@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void displayDefaultToast(View view) {
         Toast toast = Toast.makeText(context, R.string.default_toast_message, duration);
-        toast.setGravity(Gravity.CENTER | Gravity.START, 20, 0);
+        toast.setGravity(Gravity.TOP | Gravity.CENTER, 0, 140);
         toast.show();
     }
 }
